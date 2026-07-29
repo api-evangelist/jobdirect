@@ -1,4 +1,16 @@
 aid: jobdirect
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jobdirect.png
 name: Jobdirect
 description: Jobdirect is a company surfaced as a portfolio company of canaan-partners and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'jobdirect.com is a parked GoDaddy domain (redirects to /lander); no live product, developer portal, API, or docs subdomains (api/developer/docs/app all NXDOMAIN). JobDirect was a late-1990s college-recruiting startup, Canaan Partners portfolio, acquired ~2001 and defunct. No API surface to enrich; no fabrication.'
 tags:
 - Company
 apis: []
